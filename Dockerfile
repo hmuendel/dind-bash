@@ -1,4 +1,4 @@
 
-FROM docker:dind
+FROM docker
 
 RUN apk add --update bash && rm -rf /var/cache/apk/*
